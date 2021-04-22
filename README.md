@@ -17,22 +17,24 @@ https://colab.research.google.com/drive/1JIuJ6m9qxYmO2bAAV1-KsYdSHRmsQWRJ?usp=sh
 
 For it to get the approximate time we write :-
 
+```
 !pip install ipython-autotime
 %load_ext autotime
+```
 
 Then we write :-
 
-'''
+```
 %%file filename.cpp
-'''
+```
 
 before the code given in the repositories(Matrix_ADD and Matrix_MUL) and then run this script in google colab: -
 
-'''
+```
 %%script bash
 g++ file_name.cpp -std=c++11
 ./a.out
-'''
+```
 
 It run the program and autotime gives the time taken to run it.
 
