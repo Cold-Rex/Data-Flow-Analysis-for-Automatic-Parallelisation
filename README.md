@@ -3,6 +3,13 @@ It is for a project for the final year
 
 We are using google collab so here are the specs of the system we are working in =>
 
+```
+Cores = 4
+Max threads per core = 2
+L1 cache = 32K
+L2 cache = 256K
+L3 cache = 3072K
+```
 
 ### Initial Step is to read about all the method used.
 
